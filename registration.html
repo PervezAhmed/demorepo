@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label>User Name : </label>
+            <input type="text" pattern="[A-Za-z]+" maxlength="15" autofocus><br><br>
+            <label>Password : </label>
+            <input type="password" pattern="[0-9][A-Za-z]+[0-9]" minlength="8" maxlength="12" required><br><br>
+            <label>Email : </label>
+            <input type="email"><br><br>
+        </div>
+
+        <div>
+            <label>Gender : </label>  
+            <input type="radio" name="myGender">
+            <label>Male</label>
+            <input type="radio" name="myGender">
+            <label>Female</label>
+            <input type="radio" name="myGender">
+            <label>Other</label><br><br>
+        </div>
+
+        <div>
+            <label>Age (Yrs) : </label>
+            <input type="number" min="12" max="60"><br><br>
+        </div>
+
+        <div>
+            <label>Address : </label>
+            <textarea cols="20" rows="4" maxlength="100"></textarea><br><br>
+        </div>
+
+        <div>
+            <label>Company website : </label>
+            <input type="url"><br><br>
+            <label for="country">Choose country : </label>
+            <select id="country">
+               <option selected>India</option>
+               <option>United States</option>
+               <option>Germany</option>
+               <option>Japan</option>
+            </select><br><br>
+            <label>Date of Journey : </label>
+            <input type="date"><br><br>
+        </div>
+
+        <div>
+            <input type="submit">
+            <input type="reset"><br>
+        </div>
+    </form>
+</body>
