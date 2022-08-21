@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Pizza Delivery Service</title>
+<style>
+label{
+  color:white;
+}
+#id1{
+background-color:purple;
+}
+</style>
+</head>
+<body>
+<center>
+<form id="id1">
+<label>First Name:</label>
+<input type="text" required maxlength="20" autofocus/><br><br>
+<label>Phone No:</label>
+<input type="number" required/><br><br>
+<label>Size:</label>
+<input type="radio" name="size"/>
+<label>Small</label>
+<input type="radio" name="size"/>
+<label>Medium</label>
+<input type="radio" name="size"/>
+<label>Large</label>
+<input type="radio" name="size"/>
+<label>Extra-Large</label><br><br>
+<label>Base:</label>
+<select name="pizza-type">
+  <option selected>---SELECT---</option>
+  <option>Pan Pizza</option>
+  <option>Cheese Crust</option>
+  <option>Chicken Stuffed Crust</option>
+</select><br><br>
+<label>Addititonal Details:</label>
+<textarea rows="2" col="30"></textarea><br><br>
+<input type="button" value="Cancel"/>
+<input type="button" value="Order"/>
+</form>
+</center>
+</body>
+</html>
+
