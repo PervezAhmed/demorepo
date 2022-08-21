@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+    <style>
+        body{
+            font-size: 24px;
+        }
+        .required-field{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <form>
+        <div>
+            <label>First Name : </label>
+            <span class="required-field">*</span>
+            <input type="text" maxlength="10" required><br><br>
+        </div>
+
+        <div>
+            <label>Last Name : </label>
+            <span class="required-field">*</span>
+            <input type="text" maxlength="10" required><br><br>
+        </div>
+        
+        <div>
+            <label>Date of Birth : </label>
+            <span class="required-field">*</span>
+            <input type="date" required><br><br>
+        </div>
+
+        <div>
+            <label>Gender : </label>  
+            <input type="radio" name="myGender">
+            <label>Male</label>
+            <input type="radio" name="myGender">
+            <label>Female</label>
+            <input type="radio" name="myGender">
+            <label>Other</label><br><br>
+        </div>
+
+        <div>
+            <label for="country">Degree : </label>
+            <select id="country">
+               <option>Bachelors</option>
+               <option>Masters</option>
+               <option>Doctorate</option>
+            </select><br><br>
+            
+        </div>
+
+        <div>
+            <label>Specialization : </label>
+            <input type="text" max="40"><br><br>
+        </div>
+
+        <div>
+            <label>Current cgpa : </label>
+            <span class="required-field">*</span>
+            <input type="number" max="5" step=".1" required><br><br>
+        </div>
+
+        <div>
+            <label>Phone Number : </label>
+            <span class="required-field">*</span>
+            <input type="number" required><br><br>
+        </div>
+
+        <div>
+            <label>Address : </label>
+            <span class="required-field">*</span>
+            <textarea cols="40" rows="4"></textarea><br><br>
+        </div>        
+
+        <div>
+            <input type="submit">
+            <input type="reset"><br>
+        </div>
+    </form>
+    </center>
+</body>
+</html>

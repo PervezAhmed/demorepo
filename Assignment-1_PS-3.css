@@ -1,0 +1,29 @@
+.box1{
+    border:1px solid black;
+    width: 20%;
+    margin: 8% 38%;
+    padding: 8px;
+    background-color: black;
+}
+.box2{
+    border: 1px solid blue;
+    border-radius: 10px;
+    background-color: white;
+    padding: 0px 10px 25px;
+}
+.login-label{
+    color: rgb(11, 81, 167);
+}
+.mail-label{
+    color: blue;
+}
+.password-label{
+    color: blue;
+}
+.btn{
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(32, 111, 247);
+    color: white;
+    padding: 8px;
+}
