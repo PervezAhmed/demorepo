@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator_style.css"/>
+</head>
+<body>
+    <script type="text/javascript" src="Calculator_handling_Events.js"></script>
+    <center>
+    <table border="1">
+        <tr>
+            <th colspan="4"><input type="text" id="result"></th>
+        </tr>
+        <tr>
+            <th><input type="button" value="(" onclick="display('(')"></th>
+            <th><input type="button" value="CE" onclick="delt()"></th>
+            <th><input type="button" value=")" onclick="display(')')"></th>
+            <th><input type="button" value="C" onclick="clearScreen()" id="btn"></th>
+        </tr>
+        <tr>
+            <th><input type="button" value="1" onclick="display('1')"></th>
+            <th><input type="button" value="2" onclick="display('2')"></th>
+            <th><input type="button" value="3" onclick="display('3')"></th>
+            <th><input type="button" value="+" onclick="display('+')"></th>
+        </tr>
+        <tr>
+            <th><input type="button" value="4" onclick="display('4')"></th>
+            <th><input type="button" value="5" onclick="display('5')"></th>
+            <th><input type="button" value="6" onclick="display('6')"></th>
+            <th><input type="button" value="-" onclick="display('-')"></th>
+        </tr>
+        <tr>
+            <th><input type="button" value="7" onclick="display('7')"></th>
+            <th><input type="button" value="8" onclick="display('8')"></th>
+            <th><input type="button" value="9" onclick="display('9')"></th>
+            <th><input type="button" value="X" onclick="display('*')"></th>
+        </tr>
+        <tr>
+            <th><input type="button" value="." onclick="display('.')"></th>
+            <th><input type="button" value="0" onclick="display('0')"></th>
+            <th><input type="button" value="=" onclick="calculate()" id="btn"></th>
+            <th><input type="button" value="/" onclick="display('/')"></th>
+        </tr>
+    </table>
+</center>
+</body>
+</html>
